@@ -1,0 +1,5 @@
+nim = int(input("Masukkan 3 angka terakhir NIM Anda : "))
+print("Anda berada di kelas:")
+print("Kelas "+ str(nim%2+1) +" - Matematika")
+print("Kelas "+ str(nim%3+7) +" - Fisika")
+print("Kelas "+ str(nim%4+9) +" - Kimia")
